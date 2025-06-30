@@ -1,0 +1,28 @@
+{
+  "name": "vue-mf",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 5002 --strictPort"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "veaury": "^2.6.2",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.4.1",
+    "@types/react": "^19.1.8",
+    "@vitejs/plugin-legacy": "^7.0.0",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "vite-plugin-federation": "^0.0.1",
+    "vue-tsc": "^2.2.10"
+  }
+}
